@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+
+
+/* Custom Css */
+
+
+:root{
+  --body-bg: #F1F5F9;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  appearance: none; 
+  background-color: #fff;
+  border:1px solid #d0d5dd;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #4A56DA;
+}
+
+.main-radius{
+  border-radius: 24px;
+}
+
+/* input[type="checkbox"]:checked::before {
+  content: "✔";
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+
+body{
+  background-color: var(--body-bg);
+}
+
+.instant-bg{
+  background: url('./assets/headphone.png') #4A56DA;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
